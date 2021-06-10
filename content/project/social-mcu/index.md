@@ -10,7 +10,7 @@ profile: false
 weight: 30
 
 title: Marvel Cinematic Universe Network Analysis
-summary:   
+summary: Network analysis of MCU characters and prediction of key characters for sequels.
 tags:
 - Python
 - Visualisation
