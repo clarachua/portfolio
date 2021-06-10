@@ -1,0 +1,36 @@
+/* buttons */
+
+/*undo rounded corners*/
+/*
+.btn.btn-sm, .btn-group-sm > .btn {
+  border-radius: 0rem; 
+  font-size: 0.8rem;
+}
+
+.btn.btn-outline-primary.my-1.mr-1 {
+  border-radius: 0px;
+  font-size: 0.8rem;
+}
+*/
+
+/* button fonts
+.btn {
+  font-family: Lora;
+  text-transform: lowercase;
+  font-style: italic;
+  border-radius: 0px;
+}
+*/
+
+.btn-toolbar .btn:first-child {
+  border-radius: 0px;
+}
+
+.btn-toolbar .btn:last-child {
+  border-radius: 0px;
+}
+
+/* justify button toolbar to centre */
+.btn-toolbar {
+  justify-content: center;
+}
