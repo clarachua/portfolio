@@ -5,10 +5,10 @@ widget: pages
 
 # This file represents a page section.
 headless: true
-active: false
+active: true
 
 # Order that this section appears on the page.
-weight: 70
+weight: 60
 
 title: 'Recent & Upcoming Talks'
 subtitle:
@@ -23,14 +23,14 @@ content:
     author: ""
     category: ""
     tag: ""
-    exclude_featured: false
+    exclude_featured: true
     exclude_future: false
     exclude_past: false
     publication_type: ""
   # Choose how many pages you would like to offset by
   offset: 0
   # Page order: descending (desc) or ascending (asc) date.
-  order: desc
+  order: asc
 
 design:
   # Choose a view for the listings:
