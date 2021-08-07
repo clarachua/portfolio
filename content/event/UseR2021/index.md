@@ -32,7 +32,7 @@ tags: [R]
 title: "useR! Conference 2021: Lightning Talk"
 url_code: ""
 url_pdf: ""
-url_slides: ""
+url_slides: "files/UseR2021_Parallelisation_Lightning_Talk.pdf"
 url_video: ""
 ---
 

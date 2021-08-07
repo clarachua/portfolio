@@ -24,7 +24,7 @@ feature:
 - name: Python
   icon: python
   icon_pack: fab
-  description: Knowledge of basic python programming for exploratory data analysis, social analytics, NLP and Machine Learning.  Able to use REST APIs to access data from specific resources.
+  description: Knowledge of python programming for exploratory data analysis, social analytics, NLP and Machine Learning.  Able to use REST APIs to access data from specific resources.
 
 - name: Data Analysis
   icon: chart-line
@@ -41,15 +41,15 @@ feature:
   icon_pack: fas
   description: Experienced in data analysis and creating interactive dashboards using Tableau.
   
-- name: Google Suite & Scripts
-  icon: google
-  icon_pack: fab
-  description: Expert in Google Suite applications such as Slides, Sheets (and Microsoft equivalents).  Experienced in creating dashboards in Google Sheets, able to write basic Google App Scripts to automate functions.
+- name: SQL
+  icon: database
+  icon_pack: fas
+  description: Knowledge of Postgres SQL to query database, perform data cleaning and exploratory data analysis.  
 
-# - name: SQL
-#   icon: database
-#   icon_pack: fas
-#   description: Basic knowledge of SQL.
+# - name: Google Suite & Scripts
+#   icon: google
+#   icon_pack: fab
+#   description: Expert in Google Suite applications such as Slides, Sheets (and Microsoft equivalents).  Experienced in creating dashboards in Google Sheets, able to write basic Google App Scripts to automate functions.
 
 # Uncomment to use emoji icons.
 #- icon = ":smile:"
