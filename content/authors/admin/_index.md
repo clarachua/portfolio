@@ -54,4 +54,6 @@ I love tangling with new technologies, working with R, R Shiny and Python in exp
 
 Combined with my HR expertise, I’m also experienced in working with People data to enhance HR functions and productivity, and help leaders make better People decisions for the organisation.
 
-{{< icon name="download" pack="fas" >}} Download my {{< staticref "files/ClaraChua_2021_v3.pdf" "newtab" >}}resumé{{< /staticref >}}.
+{{< icon name="download" pack="fas" >}} Download my resumé:
+{{< staticref "files/ClaraChua_2021_HR_Analytics.pdf" "newtab" >}}HR Analytics{{< /staticref >}} | 
+{{< staticref "files/ClaraChua_2021_data.pdf" "newtab" >}}Data Science{{< /staticref >}}
