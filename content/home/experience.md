@@ -28,13 +28,18 @@ date_format: Jan 2006
 #   Leave `date_end` empty if it's your current employer.
 #   Begin multi-line descriptions with YAML's `|2-` multi-line prefix.
 experience:
-  - title: Consultant
-    company: 'Circles.Life'
-    company_url: 'https://www.circles.life/sg/'
+  - title: Principal, People Analytics & Workforce Transformation
+    company: 'AIA Singapore'
+    company_url: 'https://www.aia.com.sg/'
     location: Singapore
-    date_start: '2020-11-01'
-    date_end: ''
-    # description: Run Performance Management quarterly cycle.
+    date_start: '2021-11-01'
+    date_end: '2025-07-31'
+    description:  |2-
+      * Align People Analytics initiatives with AIA's business transformation strategy
+      * Managed enterprise-wide manpower budgeting process and facilitated HR strategic planning.
+      * Implemented dashboards and automated trackers to monitor Talent Acquisition metrics & performance, enhancing visibility and accountability
+      * Streamlined and automated job reference request process, improving turnaround time by 70%
+      * Led large scale employee engagement events with cross functional committees
         
   - title: People & Culture Analytics | <br> Regional People Partnering Lead
     company: 'Circles.Life'
@@ -42,7 +47,7 @@ experience:
     location: Singapore
 
     date_start: '2019-04-01'
-    date_end: '2020-10-31'
+    date_end: '2021-10-31'
     description: |2-
       * Streamline and automate HR processes and ensure data integrity of data across various systems (HRIS, ATS, etc); Assist with data integration with partners through APIs and ETLs
       * Design and develop dashboards on recruitment, manpower and performance using collated data from various sources to enable TA team and HODs to track recruiter performance, headcounts and attrition
