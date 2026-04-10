@@ -17,6 +17,7 @@ subtitle:
 design:
   spacing:
     padding: ["0px", "0", "20px", "0"]
+  columns: '2' 
 # Background
   background:
     # Name of image in `assets/media/`.
@@ -60,6 +61,6 @@ item:
 #   title: 'Object-Oriented Programming in R'
 #   url: ""
 
-design:
-  columns: '2' 
+# design:
+#   columns: '2' 
 ---

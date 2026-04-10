@@ -22,7 +22,7 @@ interests:
 # organizations:
 # - name: Stanford University
 #   url: https://www.stanford.edu/
-role: Data Science Enthusiast | People Analytics
+role: HR Transformation & Analytics <br> AI-Enabled Workflows <br> Workforce Strategy
 social:
 # - icon: envelope
 #   icon_pack: fas
@@ -50,9 +50,11 @@ superuser: true
 title: Clara Chua
 ---
 
-I love tangling with new technologies, working with R, R Shiny and Python in exploring data and creating impactful visualisations and dashboards for data-driven decisions.  I enjoy problem solving especially with other team members, to ask better questions, and generate new ideas and insights.  
+<b>People analytics and HR technology leader</b> with 18+ years of experience designing data-driven workforce systems and enabling organisational transformation.
 
-Combined with my HR expertise, I’m also experienced in working with People data to enhance HR functions and productivity, and help leaders make better People decisions for the organisation.
+I work at the intersection of people analytics, workforce strategy, and digital enablement — translating complex organisational data into insights that leaders can actually use. Increasingly, that means leveraging AI and automation to improve how work gets done at scale.
+
+I have a builder's mindset and a slight obsession with making things work better than they did yesterday — whether that's a workforce forecasting model, an automated HR workflow, or an agentic AI pipeline. I believe the most elegant solution is usually the simplest one. Getting there is rarely simple, but that's the interesting part.
 
 {{< icon name="download" pack="fas" >}} Download my resumé:
 {{< staticref "files/ClaraChua_2021_HR_Analytics.pdf" "newtab" >}}HR Analytics{{< /staticref >}} | 

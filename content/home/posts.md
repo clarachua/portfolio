@@ -14,6 +14,7 @@ weight: 60
 design:
   spacing:
     padding: ["0px", "0", "20px", "0"]
+  view: 2
 
 title: Recent Posts
 subtitle:
@@ -37,11 +38,11 @@ content:
   # Page order: descending (desc) or ascending (asc) date.
   order: desc
 
-design:
-  # Choose a view for the listings:
-  #   1 = List
-  #   2 = Compact
-  #   3 = Card
-  #   4 = Citation (publication only)
-  view: 2
+# design:
+#   # Choose a view for the listings:
+#   #   1 = List
+#   #   2 = Compact
+#   #   3 = Card
+#   #   4 = Citation (publication only)
+#   view: 2
 ---

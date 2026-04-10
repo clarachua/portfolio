@@ -16,7 +16,7 @@ subtitle:
 design:
   spacing:
     padding: ["20px", "0", "20px", "0"]
-
+  columns: '2'
 
 # Date format for experience
 #   Refer to https://wowchemy.com/docs/customization/#date-format
@@ -107,6 +107,6 @@ experience:
   #     * Analysed compensation and benefits framework for various companies
   #     * Statistical analysis of employee surveys (>1,000 respondents)
 
-design:
-  columns: '2'
+# design:
+#   columns: '2'
 ---
