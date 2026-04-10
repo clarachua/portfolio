@@ -56,6 +56,7 @@ I work at the intersection of people analytics, workforce strategy, and digital 
 
 I have a builder's mindset and a slight obsession with making things work better than they did yesterday — whether that's a workforce forecasting model, an automated HR workflow, or an agentic AI pipeline. I believe the most elegant solution is usually the simplest one. Getting there is rarely simple, but that's the interesting part.
 
-{{< icon name="download" pack="fas" >}} [Download my resumé](staticref "files/ClaraChua_2026_HR_AI.pdf")
+{{< icon name="download" pack="fas" >}} [Download my resumé](files/ClaraChua_2026_HR_AI.pdf)
+<!--{{< staticref "files/ClaraChua_2026_HR_AI.pdf" "newtab" >}}Download my resumé{{< /staticref >}} -->
 <!--{{< staticref "files/ClaraChua_2026_HR_AI.pdf" "newtab" >}}HR Transformation & AI{{< /staticref >}} | -->
 <!--{{< staticref "files/ClaraChua_2021_data.pdf" "newtab" >}}Data Science{{< /staticref >}}-->
