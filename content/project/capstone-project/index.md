@@ -14,6 +14,7 @@ summary: Project page featuring elements of my capstone project including EDA, S
 tags:
 - R-projects
 - Geospatial Analysis
+- Data
 toc: true
 
 links:
@@ -77,4 +78,4 @@ This section shows the data collation and wrangling of hypothesized pricing dete
 - Categorical variables (Superhost, Room types, Cancellation policies)
 
 #### [GWR Bandwidth & Model Selection](https://rpubs.com/clarachua/airbnbA3)
-This section shows the code for determining the bandwidth and model selection for the basic GWR.  
+This section shows the code for determining the bandwidth and model selection for the basic GWR.

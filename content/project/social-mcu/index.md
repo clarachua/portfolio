@@ -14,6 +14,7 @@ summary: Network analysis of MCU characters and prediction of key characters for
 tags:
 - Python
 - Visualisation
+- Data
 
 # header:
 #   image: "media/1600px-G1-Cover4.jpg"
@@ -38,4 +39,4 @@ This is a group project that used Python and Gephi to conduct network analysis o
 
 ### Coming Soon to a Theatre Near You
 Detailed write-up on the project page to be done.  
-In the meantime, links to the report and presentation slides can be found above.  
+In the meantime, links to the report and presentation slides can be found above.

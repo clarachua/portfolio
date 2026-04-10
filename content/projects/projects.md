@@ -27,6 +27,10 @@ content:
   filter_button:
   - name: All
     tag: '*'
+  - name: Agentic AI
+    tag: Agentic-AI
+  - name: Data Projects
+    tag: Data
   - name: Tableau
     tag: Tableau
   - name: R

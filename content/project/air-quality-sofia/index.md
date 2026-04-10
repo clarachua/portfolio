@@ -14,6 +14,7 @@ weight: 40
 tags:
 - Tableau
 - Visualisation
+- Data
     
 # external_link: "https://wiki.smu.edu.sg/18191isss608g1/ISSS608_2018-19_T1_Assign_Clara_Chua_Kiah_Hwii"
 image:
@@ -29,4 +30,4 @@ url_slides: ""
 url_video: ""
 ---
 
-This project looks at a spatio-temporal analysis of Air Quality data using Tableau.  The results are presented in a Wiki page as part of the assignment.  
+This project looks at a spatio-temporal analysis of Air Quality data using Tableau.  The results are presented in a Wiki page as part of the assignment.
