@@ -16,40 +16,35 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- name: R
-  icon: r-project
-  icon_pack: fab
-  description: Experienced in data analysis and basic programming in R, using RStudio IDE and basic knowledge of creating apps in R Shiny.
-
 - name: Python
   icon: python
   icon_pack: fab
-  description: Knowledge of python programming for exploratory data analysis, social analytics, NLP and Machine Learning.  Able to use REST APIs to access data from specific resources.
+  description: Data analysis, NLP, machine learning, and automation. Comfortable building pipelines and working with REST APIs.
 
-- name: Data Analysis
-  icon: chart-line
+- name: Prompt Engineering
+  icon: robot
   icon_pack: fas
-  description: Experienced in performing exploratory data analysis, cluster and general regression modeling, basic geospatial analysis.
+  description: Designing effective prompts and workflows using large language models including Claude and ChatGPT for real-world business applications.
 
-- name: Cloud Computing
-  icon: cloud
+- name: Agentic AI
+  icon: microchip
   icon_pack: fas
-  description: Able to work with major cloud providers such as Azure, AWS and GCP.  Created and worked with instance of RStudio Server on Azure VM.
+  description: Actively building agentic AI pipelines and multi-step automated workflows. Current focus area.
 
 - name: Tableau
-  icon: columns
+  icon: chart-bar
   icon_pack: fas
-  description: Experienced in data analysis and creating interactive dashboards using Tableau.
-  
-- name: SQL
-  icon: database
-  icon_pack: fas
-  description: Knowledge of Postgres SQL to query database, perform data cleaning and exploratory data analysis.  
+  description: Translating complex data into interactive dashboards for decision-makers.
 
-# - name: Google Suite & Scripts
-#   icon: google
-#   icon_pack: fab
-#   description: Expert in Google Suite applications such as Slides, Sheets (and Microsoft equivalents).  Experienced in creating dashboards in Google Sheets, able to write basic Google App Scripts to automate functions.
+- name: Cloud Platforms
+  icon: cloud
+  icon_pack: fas
+  description: Hands-on experience with Azure and GCP for analytics infrastructure and data pipelines.
+
+- name: Workflow Automation
+  icon: cogs
+  icon_pack: fas
+  description: Designing and implementing intelligent workflow automation — from HR process optimisation to AI-enabled pipelines.
 
 # Uncomment to use emoji icons.
 #- icon = ":smile:"

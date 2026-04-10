@@ -9,7 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 40
 
-title: Key Data Experience
+title: Key Experience
 subtitle: 
 
 # Spacing for the widget.  Customize the section spacing.  Order is top, right, bottom, left. 
@@ -35,13 +35,13 @@ experience:
     date_start: '2021-11-01'
     date_end: '2025-07-31'
     description:  |2-
-      * Align People Analytics initiatives with AIA's business transformation strategy
-      * Managed enterprise-wide manpower budgeting process and facilitated HR strategic planning.
-      * Implemented dashboards and automated trackers to monitor Talent Acquisition metrics & performance, enhancing visibility and accountability
-      * Streamlined and automated job reference request process, improving turnaround time by 70%
-      * Led large scale employee engagement events with cross functional committees
+      * Developed attrition analytics dashboards analysing turnover by division, performance bands and compensation ratios — reduced voluntary attrition by 8 percentage points.
+      * Designed workforce analytics dashboards and automated TA trackers, reducing manual reporting effort by 40%.
+      * Automated employment verification workflow (MS Forms + scripted lookups), clearing 200+ backlog requests and cutting turnaround from 2 weeks to 3 days.
+      * Participated in enterprise AI evaluation (Microsoft Copilot, 2024), gaining practical experience in prompt engineering and real-world AI limitations in HR workflows.
+      * Managed enterprise-wide manpower budgeting and HR strategic planning in collaboration with senior leadership.
         
-  - title: People & Culture Analytics | <br> Regional People Partnering Lead
+  - title: People & Culture Analytics | Regional People Partnering Lead
     company: 'Circles.Life'
     company_url: 'https://www.circles.life/sg/'
     location: Singapore
@@ -49,22 +49,12 @@ experience:
     date_start: '2019-04-01'
     date_end: '2021-10-31'
     description: |2-
-      * Streamline and automate HR processes and ensure data integrity of data across various systems (HRIS, ATS, etc); Assist with data integration with partners through APIs and ETLs
-      * Design and develop dashboards on recruitment, manpower and performance using collated data from various sources to enable TA team and HODs to track recruiter performance, headcounts and attrition
-      * Designed and developed process for automating performance management system using Google Apps Script
-      * Oversee quantitative and qualitative analysis of monthly employee Culture Survey 
-
-  # - title: Regional People Partnering Lead
-  #   company: 'Circles.Life'
-  #   company_url: 'https://www.circles.life/sg/'
-  #   location: Singapore
-  #   date_start: '2020-01-01'
-  #   date_end: '2020-10-31'
-    # description: |2-
-    #     * Lead team to provide insights on employee engagement via monthly pulse check reporting
-    #     * Liaise with government agencies on talent and workforce development, ensure compliance with requirements
-
-  - title: Principal Consultant | <br> General Manager, Institute of Business Excellence
+      * Designed and implemented recruitment, manpower and performance dashboards for leadership, improving hiring pipeline visibility and enabling real-time workforce insights.
+      * Administered and extended BambooHR through custom configurations; built Google Apps Script automation to bridge performance management workflow gaps.
+      * Led data governance and integration across HR systems and external platforms (APIs, ETLs), improving data consistency and cross-system workforce insights.
+      * Partnered with IMDA to design and execute talent development initiatives including TechSkills Accelerator to hire and train software engineers.
+      
+  - title: Principal Consultant | GM, Institute of Business Excellence
     company: NTUC LearningHub
     company_url: 'https://www.ntuclearninghub.com/'
     location: Singapore
@@ -72,41 +62,9 @@ experience:
     # date_start: '2015-11-01'
     date_end: '2018-08-31'
     description: |2-
-      * Led analytics project to build an explanatory model between honorariums and revenue and to optimize trainer honorariums using regression modelling and k-means clustering.
+      * Delivered multi-year, multi-million dollar training transformation project for banking clients covering curation, design, delivery and learning analytics.
+      * Led team of learning executives with full accountability for client relationships and business P&L.
+      * Built business cases for new training offerings including design thinking and leadership skills, covering feasibility studies, market forecasting and partner negotiations.
 
-  # - title: General Manager, Institute of Business Excellence
-  #   company: NTUC LearningHub
-  #   company_url: 'https://www.ntuclearninghub.com/'
-  #   location: Singapore
-  #   date_start: '2013-09-01'
-  #   date_end: '2015-12-31'
 
-  # - title: ASEAN Advisory Learning & Development Leader | <br> Manager, Performance Improvement
-  #   company: Ernst & Young
-  #   company_url: 'https://www.ey.com/en_sg'
-  #   location: Singapore
-  #   date_start: '2009-09-01'
-  #   # date_start: '2011-10-01'
-  #   date_end: '2013-07-31'
-  #   description: |2-
-  #     * Project Management - Managed S$1.5m worth of client projects 
-  # 
-  # - title: Manager, Performance Improvement
-  #   company: Ernst & Young
-  #   company_url: 'https://www.ey.com/en_sg'
-  #   location: Singapore
-  #   date_start: '2009-09-01'
-  #   date_end: '2013-10-31'
-# 
-  # - title: Consultant
-  #   company: Mercer HR Consulting
-  #   location: Singapore
-  #   date_start: '2001-09-01'
-  #   date_end: '2004-11-01'
-  #   description:  |2-
-  #     * Analysed compensation and benefits framework for various companies
-  #     * Statistical analysis of employee surveys (>1,000 respondents)
-
-# design:
-#   columns: '2'
 ---

@@ -1,24 +1,27 @@
 ---
-bio: I'm a data science enthusiast, singer, and love positive psychology.
+bio: I build things the way LEGO does — modular, scalable, and endlessly reconfigurable. Wrangler of messy data problems, singer when not at the keyboard (both kinds).
 education:
   courses:
+  - course: Certificate in Digital Transformation & Change Management
+    institution: RISE by BCG U
+    year: 2026
   - course: Masters of IT in Business (Analytics)
     institution: Singapore Management University
     year: 2021
-  - course: Certificate in International Business Practices
-    institution: Mountbatten Internship Programme - New York, USA
-    year: 2001
+  # - course: Certificate in International Business Practices
+  #   institution: Mountbatten Internship Programme - New York, USA
+  #   year: 2001
   - course: BSc (Hons) Economics & Econometrics
     institution: University of Nottingham, UK
     year: 1999
 email: "clarachua@gmail.com"
 highlight_name: false
 interests:
-- Data Visualisation & Dashboarding
-- Internet of Things (IoT)
+- Agentic AI & LLM Applications
 - Natural Language Processing
-- Geospatial Analysis
-- Music and Jamming
+- Internet of Things (IoT)
+- Data Visualisation
+- Music & Performance
 # organizations:
 # - name: Stanford University
 #   url: https://www.stanford.edu/
