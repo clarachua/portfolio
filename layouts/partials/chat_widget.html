@@ -1,0 +1,112 @@
+<style>
+  #chat-toggle {
+    position: fixed; bottom: 20px; right: 20px; z-index: 9999;
+    width: 56px; height: 56px; border-radius: 50%;
+    border: none; cursor: pointer; font-size: 24px;
+    background: #126E5E; color: #fff;
+    box-shadow: 0 4px 12px rgba(0,0,0,.3;);
+  }
+  #chat-toggle:hover { filter: brightness(0.9); }
+  #chat-panel {
+    position: fixed; bottom: 90px; right: 20px; z-index: 9999;
+    width: 380px; height: 560px;
+    min-width: 300px; min-height: 360px;
+    max-width: calc(100vw - 40px); max-height: calc(100vh - 120px);
+    display: none; flex-direction: column;
+    border-radius: 12px; overflow: hidden; background: #fff;
+    box-shadow: 0 8px 24px rgba(0,0,0,.35);
+  }
+  #chat-header {
+    display: flex; align-items: center; justify-content: space-between;
+    padding: 8px 10px 8px 26px; background: #126E5E; color: #fff;
+    font: 600 14px/1 sans-serif; flex: 0 0 auto;
+  }
+  #chat-header button {
+    background: none; border: none; color: #fff; cursor: pointer;
+    font-size: 16px; margin-left: 10px; padding: 2px 4px;
+  }
+  #chat-body { flex: 1 1 auto; position: relative; }
+  #chat-body iframe { width: 100%; height: 100%; border: 0; }
+  #chat-resize {
+    position: absolute; top: 0; left: 0; width: 20px; height: 20px;
+    cursor: nwse-resize; z-index: 2; touch-action: none;
+    background: linear-gradient(135deg, rgba(255,255,255,.8) 0 35%, transparent 35%);
+  }
+</style>
+
+<button id="chat-toggle" aria-label="Open career chatbot">💬</button>
+
+<div id="chat-panel">
+  <div id="chat-resize" title="Drag to resize"></div>
+  <div id="chat-header">
+    <span>Career Twin</span>
+    <span>
+      <button id="chat-expand" title="Expand / shrink" aria-label="Expand or shrink">⤢</button>
+      <button id="chat-popout" title="Open in separate window" aria-label="Open in separate window">↗</button>
+    </span>
+  </div>
+  <div id="chat-body"></div>
+</div>
+
+<script>
+  (function () {
+    var URL = 'https://career-twin-rl6c.onrender.com/?__theme=light';
+    var btn = document.getElementById('chat-toggle');
+    var panel = document.getElementById('chat-panel');
+    var body = document.getElementById('chat-body');
+    var handle = document.getElementById('chat-resize');
+    var loaded = false, expanded = false, iframe = null;
+
+    function openPanel() {
+      panel.style.display = 'flex';
+      btn.textContent = '✕';
+      if (!loaded) {
+        iframe = document.createElement('iframe');
+        iframe.src = URL;
+        iframe.title = 'Career Twin chatbot';
+        body.appendChild(iframe);
+        loaded = true;
+      }
+    }
+    function closePanel() {
+      panel.style.display = 'none';
+      btn.textContent = '💬';
+    }
+
+    btn.addEventListener('click', function () {
+      panel.style.display === 'flex' ? closePanel() : openPanel();
+    });
+
+    // Expand / shrink
+    document.getElementById('chat-expand').addEventListener('click', function () {
+      expanded = !expanded;
+      panel.style.width = expanded ? '720px' : '380px';
+      panel.style.height = expanded ? '780px' : '560px';
+    });
+
+    // Pop out into a separate window
+    document.getElementById('chat-popout').addEventListener('click', function () {
+      window.open(URL, 'careerTwin', 'popup=yes,width=520,height=760');
+      closePanel();
+    });
+
+    // Drag to resize (top-left handle)
+    var startX, startY, startW, startH;
+    handle.addEventListener('pointerdown', function (e) {
+      startX = e.clientX; startY = e.clientY;
+      startW = panel.offsetWidth; startH = panel.offsetHeight;
+      handle.setPointerCapture(e.pointerId);
+      if (iframe) iframe.style.pointerEvents = 'none';
+      e.preventDefault();
+    });
+    handle.addEventListener('pointermove', function (e) {
+      if (!handle.hasPointerCapture(e.pointerId)) return;
+      panel.style.width = (startW + (startX - e.clientX)) + 'px';
+      panel.style.height = (startH + (startY - e.clientY)) + 'px';
+    });
+    handle.addEventListener('pointerup', function (e) {
+      handle.releasePointerCapture(e.pointerId);
+      if (iframe) iframe.style.pointerEvents = '';
+    });
+  })();
+</script>
